@@ -1,0 +1,23 @@
+{
+  "name": "srabuster",
+  "version": "1.0.0",
+  "description": "Sra Buster Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martnjf/srabuster.git"
+  },
+  "author": "Andrea Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martnjf/srabuster/issues"
+  },
+  "homepage": "https://github.com/martnjf/srabuster#readme",
+  "devDependencies": {
+    "electron": "^12.0.9"
+  }
+}

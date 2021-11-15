@@ -1,0 +1,120 @@
+<html>
+<h>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SraBuster</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+        integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+        crossorigin="anonymous"></script>
+
+    <!-- Estilos de CSS -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/carrusel.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class="wrapper">
+
+            <!-- HEADER -->
+            <header>
+                <div class="netflixLogo">
+                    <a id="logo" href="./main.html"><img src="../assets/Logo.png" alt="Logo Image"></a>
+                </div>
+                <nav class="main-nav">
+                    <a href="./main.html">Home</a>
+                    <a href="./planes.html">Planes</a>
+                    <a href="./peliculas.html">Películas</a>
+                    <a href="./videojuegos.html">Videojuegos</a>
+                    <a href="./contacto.html">Contacto</a>
+                </nav>
+                <nav class="sub-nav">
+                    <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
+                    <!-- <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a> -->
+                    <a href="#">Ingresa</a>
+                </nav>
+            </header>
+            <!-- END OF HEADER -->
+
+            <!-- MAIN CONTAINER -->
+            <section class="main-container">
+
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                </div>
+
+                <div class="location" id="home">
+                    <h1 id="home">Populares en Videojuegos</h1>
+                    <div class="box" id="firstBox">
+                        <div class="card-ex"><img class="imagen"
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true"
+                                alt=""></div>
+                        <!-- <a href=""><img
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true"
+                                alt=""></a>
+                        <a href=""><img
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p8.PNG?raw=true"
+                                alt=""></a>
+                        <a href=""><img
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p9.PNG?raw=true"
+                                alt=""></a>
+                        <a href=""><img
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p10.PNG?raw=true"
+                                alt=""></a>
+                        <a href=""><img
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p11.PNG?raw=true"
+                                alt=""></a>
+                        <a href=""><img
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                                alt=""></a> -->
+                    </div>
+                </div>
+
+
+                <h1 id="myList">Tendencias en Videojuegos</h1>
+                <div class="box" id="secondBox">
+                    <div class="card-ex2"><img class="imagen2"
+                            src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true" alt="">
+                    </div>
+                    <!--  <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t1.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t2.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t3.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t4.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t5.PNG?raw=true"
+                            alt=""></a>
+                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t6.PNG?raw=true"
+                            alt=""></a> -->
+                </div>
+
+                <!-- END OF MAIN CONTAINER -->
+
+                <!-- LINKS -->
+                <section class="link">
+                    <div class="logos">
+                        <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+                    </div>
+                </section>
+                <!-- END OF LINKS -->
+
+                <!-- FOOTER -->
+        </div>
+
+        <!-- Archivos JavaScript -->
+        <script src="../js/videojuegos.js"></script>
+    </body>
+
+</html>
