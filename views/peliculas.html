@@ -11,8 +11,9 @@
         crossorigin="anonymous"></script>
 
     <!-- Estilos de CSS -->
+    <link rel="stylesheet" href="../styles/components/modal.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="../styles/carrusel.css">
+    <link rel="stylesheet" href="../styles/components/carrusel.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     </head>
@@ -51,10 +52,31 @@
                     <div class="gallery-cell"></div>
                 </div>
 
+                <!-- Modal content -->
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Modal Header</h2>
+                        </div>
+                        <div class="modal-body">
+                            <img class="description-img"
+                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t3.PNG?raw=true"
+                                alt="">
+                            <div class="modal-title">Some text in the Modal Body</div>
+                            <div class="modal-desc">Some other text...</div>
+                        </div>
+                    </div>
+
+                </div>
+
                 <div class="location" id="home">
                     <h1 id="home">Populares en Películas</h1>
                     <div class="box" id="firstBox">
-                        <div class="card-ex"><img class="imagen"
+                        <div class="card-ex" onclick='showModal(this)'><img class="imagen"
                                 src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true"
                                 alt=""></div>
                         <!-- <a href=""><img
@@ -81,7 +103,7 @@
 
                 <h1 id="myList">Tendencias en Películas</h1>
                 <div class="box" id="secondBox">
-                    <div class="card-ex2"><img class="imagen2"
+                    <div class="card-ex2" onclick='showModal(this)'><img class="imagen2"
                             src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true" alt="">
                     </div>
                     <!--  <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t1.PNG?raw=true"
@@ -109,6 +131,8 @@
                     </div>
                 </section>
                 <!-- END OF LINKS -->
+
+
 
                 <!-- FOOTER -->
         </div>
