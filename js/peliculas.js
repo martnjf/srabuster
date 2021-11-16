@@ -4,7 +4,6 @@ $(".card-ex2:first").hide();
 fetch("../JSON/peliculas.json").then(function (response) {
   response.json().then(function (datos) {
     datos[0].items.forEach((item, index) => {
-      console.log(index);
       var cards = $(".card-ex:first").clone();
       $(cards).find(".imagen").attr("src", item.image);
       $(cards).attr("id", index);
@@ -29,13 +28,24 @@ var element = document.getElementsByClassName("card-ex");
 var span = document.getElementsByClassName("close")[0];
 
 function showModal(item) {
-  var DivId = $(item).attr("id");
+  var divId = $(item).attr("id");
+  var type = 0;
+  $(item).attr("value") == "populares" ? (type = 0) : (type = 1);
+
   modal.style.display = "block";
+
+  fetch("../JSON/peliculas.json").then(function (response) {
+    response.json().then(function (datos) {
+      var itemSelected = datos[type].items[divId];
+      document.getElementById("modal-header").innerHTML = itemSelected.title;
+      document.getElementById("modal-desc").innerHTML = itemSelected.body;
+      $("#modal-image").attr("src", itemSelected.image);
+    });
+  });
 }
 
 span.onclick = function () {
   modal.style.display = "none";
-  document.getElementById("demo").innerHTML = "Hello World";
 };
 
 window.onclick = function (event) {
