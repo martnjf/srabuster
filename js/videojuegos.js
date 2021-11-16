@@ -1,7 +1,7 @@
 $(".card-ex:first").hide();
 $(".card-ex2:first").hide();
 
-fetch("../JSON/peliculas.json").then(function (response) {
+fetch("../JSON/videojuegos.json").then(function (response) {
   response.json().then(function (datos) {
     datos[0].items.forEach((item, index) => {
       var cards = $(".card-ex:first").clone();
