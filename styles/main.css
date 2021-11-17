@@ -1,3 +1,26 @@
+/* New added cards */
+.spaces {
+  padding: 10px 10px 10px 10px;
+}
+.container {
+  max-width: 960px;
+}
+.pricing-header {
+  max-width: 700px;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+/* New added cards */
 /* CSS VARIABLES */
 :root {
   --primary: #fff;
