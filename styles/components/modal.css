@@ -52,7 +52,7 @@
 .modal-body {
   padding: 30px 26px;
   display: grid;
-  grid-template-columns: 40% auto;
+  grid-template-columns: 47% auto;
   grid-column-gap: 20px;
 }
 

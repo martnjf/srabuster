@@ -39,6 +39,7 @@ function showModal(item) {
       var itemSelected = datos[type].items[divId];
       document.getElementById("modal-header").innerHTML = itemSelected.title;
       document.getElementById("modal-desc").innerHTML = itemSelected.body;
+      document.getElementById("modal-title").innerHTML = itemSelected.price;
       $("#modal-image").attr("src", itemSelected.image);
     });
   });
