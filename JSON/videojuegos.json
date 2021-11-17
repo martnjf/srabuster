@@ -1,102 +1,120 @@
 [
-  {
-    "section": "populares",
-    "items": [
-      {
-        "title": "Football Manager 2022",
-        "body": "",
-        "image": "https://tvazteca.brightspotcdn.com/7c/31/3191ac594c9e848dce14adeab7a8/fmm22.jpeg"
-      },
-      {
-        "title": "FIFA 22",
-        "body": "",
-        "image": "https://as.com/meristation/imagenes/2021/07/20/avances/1626758869_049177_1626771602_noticia_normal.jpg"
-      },
-      {
-        "title": "League of Legends",
-        "body": "",
-        "image": "https://esports.eldesmarque.com/wp-content/uploads/2019/09/LoL2.jpg"
-      },
-      {
-        "title": "Fortnite",
-        "body": "",
-        "image": "https://cdn2.unrealengine.com/14br-consoles-1920x1080-wlogo-1920x1080-432974386.jpg"
-      },
-      {
-        "title": "Phasmophobia",
-        "body": "",
-        "image": "https://i.blogs.es/075cae/phasmophobia/1366_2000.jpeg"
-      },
-      {
-        "title": "NBA 2k22",
-        "body": "",
-        "image": "https://as.com/meristation/imagenes/2021/09/10/noticias/1631255953_563620_1631256011_noticia_normal_recorte1.jpg"
-      },
-      {
-        "title": "Rocket League",
-        "body": "",
-        "image": "https://as01.epimg.net/meristation/imagenes/2020/09/23/noticias/1600849560_494635_1600849813_portada_normal.jpg"
-      },
-      {
-        "title": "Call of Duty: Warzone",
-        "body": "",
-        "image": "https://i.blogs.es/11123b/bocw-s4-announcement-022/1366_2000.jpeg"
-      },
-      {
-        "title": "Brawhalla",
-        "body": "",
-        "image": "https://larepublica.pe/resizer/tujhnWrwCh2OauudR3M-4pr5sQs=/480x282/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/HFO2JP7PN5FRXE7JWEAQDNC5FA.png"
-      },
-      {
-        "title": "Legend of Zelda",
-        "body": "",
-        "image": "https://i.blogs.es/15da49/zelda00/1366_2000.jpg"
-      },
-      {
-        "title": "F1",
-        "body": "",
-        "image": "https://cdn-1.motorsport.com/static/img/amp/4900000/4970000/4977000/4977400/4977451/s6_1000365/1000365.jpg"
-      },
-      {
-        "title": "Goat Simulator",
-        "body": "",
-        "image": "https://i.blogs.es/3692cb/goat/450_1000.jpg"
-      }
-    ]
-  },
-  {
-    "section": "tendencias",
-    "items": [
-        {
-            "title": "Football Manager 2022",
-            "body": "",
-            "image": "https://tvazteca.brightspotcdn.com/7c/31/3191ac594c9e848dce14adeab7a8/fmm22.jpeg"
-          },
-          {
-            "title": "FIFA 22",
-            "body": "",
-            "image": "https://as.com/meristation/imagenes/2021/07/20/avances/1626758869_049177_1626771602_noticia_normal.jpg"
-          },
-          {
-            "title": "League of Legends",
-            "body": "",
-            "image": "https://esports.eldesmarque.com/wp-content/uploads/2019/09/LoL2.jpg"
-          },
-          {
-            "title": "Fortnite",
-            "body": "",
-            "image": "https://cdn2.unrealengine.com/14br-consoles-1920x1080-wlogo-1920x1080-432974386.jpg"
-          },
-          {
-            "title": "Phasmophobia",
-            "body": "",
-            "image": "https://i.blogs.es/075cae/phasmophobia/1366_2000.jpeg"
-          },
-          {
-            "title": "NBA 2k22",
-            "body": "",
-            "image": "https://as.com/meristation/imagenes/2021/09/10/noticias/1631255953_563620_1631256011_noticia_normal_recorte1.jpg"
-          }
-    ]
-  }
+    {
+        "section": "populares",
+        "items": [
+            {
+                "title": "Football Manager 2022",
+                "body": "Football Manager es el nombre comercial con el que se conoce a la continuación de la saga Championship Manager, que comprende una serie de videojuegos de gestión futbolística, en los cuales el jugador actúa como de un mánager de un equipo de fútbol.",
+                "price": "$ 719.00 MXN",
+                "image": "https://tvazteca.brightspotcdn.com/7c/31/3191ac594c9e848dce14adeab7a8/fmm22.jpeg"
+            },
+            {
+                "title": "FIFA 22",
+                "body": "FIFA 22 es un videojuego de fútbol desarrollado por EA Vancouver y EA Romania, siendo publicado por EA Sports. Está disponible para PlayStation 4, PlayStation 5, Xbox Series X/S, Xbox One, Microsoft Windows, Google Stadia y Nintendo Switch.",
+                "price": "$ 839.56 MXN",
+                "image": "https://as.com/meristation/imagenes/2021/07/20/avances/1626758869_049177_1626771602_noticia_normal.jpg"
+            },
+            {
+                "title": "League of Legends",
+                "body": "League of Legends es un videojuego del género multijugador de arena de batalla en línea y deporte electrónico el cual fue desarrollado por Riot Games para Microsoft Windows y OS X y para consolas digitales.",
+                "price": "$ 0.00 MXN",
+                "image": "https://esports.eldesmarque.com/wp-content/uploads/2019/09/LoL2.jpg"
+            },
+            {
+                "title": "Fortnite",
+                "body": "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011",
+                "price": "$ 0.00 MXN",
+                "image": "https://cdn2.unrealengine.com/14br-consoles-1920x1080-wlogo-1920x1080-432974386.jpg"
+            },
+            {
+                "title": "Phasmophobia",
+                "body": "Phasmophobia es un videojuego de terror de supervivencia independiente desarrollado y publicado por Kinetic Games. El juego contó con un acceso anticipado a través de Steam para los equipos de Microsoft Windows en septiembre de 2020, junto con soporte de realidad virtual.",
+                "price": "$ 290.04 MXN",
+                "image": "https://i.blogs.es/075cae/phasmophobia/1366_2000.jpeg"
+            },
+            {
+                "title": "NBA 2k22",
+                "body": "NBA 2K22 es un videojuego de simulación de baloncesto desarrollado por Visual Concepts y publicado por 2K Sports, basado en la Asociación Nacional de Baloncesto. Es la 23a entrega de la franquicia NBA 2K y la sucesora de NBA 2K21.",
+                "price": "$ 759.00 MXN",
+                "image": "https://as.com/meristation/imagenes/2021/09/10/noticias/1631255953_563620_1631256011_noticia_normal_recorte1.jpg"
+            },
+            {
+                "title": "Rocket League",
+                "body": "Rocket League es un videojuego que combina el fútbol con los vehículos. Fue desarrollado por Psyonix y lanzado el 7 de julio de 2015. Fue lanzado Free to play en septiembre de 2020. Se encuentra disponible en español, y tiene modos de juego cooperativo de un jugador y en línea.",
+                "price": "$ 0.00 MXN",
+                "image": "https://as01.epimg.net/meristation/imagenes/2020/09/23/noticias/1600849560_494635_1600849813_portada_normal.jpg"
+            },
+            {
+                "title": "Call of Duty: Warzone",
+                "body": "Call of Duty: Warzone es un videojuego de disparos en primera persona, perteneciente al Battle royale gratuito, lanzado el 10 de marzo de 2020 para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X|S y Microsoft Windows.",
+                "price": "$ 0.00 MXN",
+                "image": "https://i.blogs.es/11123b/bocw-s4-announcement-022/1366_2000.jpeg"
+            },
+            {
+                "title": "Brawhalla",
+                "body": "Brawlhalla es un videojuego gratuito de lucha desarrollado por Blue Mammoth Games y publicado por Ubisoft para Microsoft Windows, Xbox One, MacOS, Nintendo Switch, PlayStation 4 e incluyendo iOS y Android. El juego se mostró por primera vez en el PAX East en abril de 2014, y entró en alfa más tarde ese mismo mes.​",
+                "price": "$ 0.00 MXN",
+                "image": "https://larepublica.pe/resizer/tujhnWrwCh2OauudR3M-4pr5sQs=/480x282/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/HFO2JP7PN5FRXE7JWEAQDNC5FA.png"
+            },
+            {
+                "title": "Legend of Zelda",
+                "body": "The Legend of Zelda es una serie de videojuegos de acción-aventura creada por los diseñadores japoneses Shigeru Miyamoto y Takashi Tezuka, ​ y desarrollada por Nintendo, empresa que también se encarga de su distribución internacional.",
+                "price": "$ 356.28 MXN",
+                "image": "https://i.blogs.es/15da49/zelda00/1366_2000.jpg"
+            },
+            {
+                "title": "F1",
+                "body": "F1 2021 es el videojuego oficial de las temporadas 2021 de Fórmula 1 y del Campeonato de Fórmula 2 de la FIA desarrollado por Codemasters y distribuido por Electronic Arts bajo la división EA Sports. Fue lanzado el 16 de julio de 2021 para Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One y Xbox Series X/S.",
+                "price": "$ 819.00 MXN",
+                "image": "https://cdn-1.motorsport.com/static/img/amp/4900000/4970000/4977000/4977400/4977451/s6_1000365/1000365.jpg"
+            },
+            {
+                "title": "Goat Simulator",
+                "body": "Goat Simulator es un videojuego de acción en tercera persona desarrollado y publicado por Coffee Stain Studios. Fue lanzado para Microsoft Windows vía Steam el 1 de abril de 2014, y para Mac OS X y Linux el 27 de junio de 2014. Versiones móviles para iOS y Android fueron lanzados el 17 de septiembre de 2014. ",
+                "price": "$ 79.00 MXN",
+                "image": "https://i.blogs.es/3692cb/goat/450_1000.jpg"
+            }
+        ]
+    },
+    {
+        "section": "tendencias",
+        "items": [
+            {
+                "title": "Minecraft",
+                "body": "Minecraft es un videojuego de construcción, de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson, ​ y posteriormente desarrollado por su empresa, Mojang Studios.",
+                "price": "$ 428.00 MXN",
+                "image": "https://i.blogs.es/1b77d0/minecraft-actualizacion/1366_2000.jpeg"
+            },
+            {
+                "title": "Football Manager 2022",
+                "body": "Football Manager es el nombre comercial con el que se conoce a la continuación de la saga Championship Manager, que comprende una serie de videojuegos de gestión futbolística, en los cuales el jugador actúa como de un mánager de un equipo de fútbol.",
+                "price": "$ 719.00 MXN",
+                "image": "https://tvazteca.brightspotcdn.com/7c/31/3191ac594c9e848dce14adeab7a8/fmm22.jpeg"
+            },
+            {
+                "title": "FIFA 22",
+                "body": "FIFA 22 es un videojuego de fútbol desarrollado por EA Vancouver y EA Romania, siendo publicado por EA Sports. Está disponible para PlayStation 4, PlayStation 5, Xbox Series X/S, Xbox One, Microsoft Windows, Google Stadia y Nintendo Switch.",
+                "price": "$ 839.56 MXN",
+                "image": "https://as.com/meristation/imagenes/2021/07/20/avances/1626758869_049177_1626771602_noticia_normal.jpg"
+            },
+            {
+                "title": "Animal Crossing",
+                "body": "Animal crossing es una serie de videojuegos de simulación de vida publicada por Nintendo y creada por Katsuya Eguchi y Hisashi Nogami, ​​​​​ en la que el jugador vive en un pueblo habitado por animales antropomórficos, llevando a cabo diversas actividades.",
+                "price": "$ 899.00 MXN",
+                "image": "https://animal-crossing.com/assets/icons/share_icon.jpg"
+            },
+            {
+                "title": "Apex Legends",
+                "body": "Apex Legends es un videojuego gratuito perteneciente al género battle royale desarrollado por Respawn Entertainment y publicado por Electronic Arts. Fue lanzado para Microsoft Windows, PlayStation 4 y Xbox One el 4 de febrero de 2019.",
+                "price": "$ 0.00 MXN",
+                "image": "https://i.blogs.es/0d319f/1366_2000/1366_2000.jpeg"
+            },
+            {
+                "title": "Final Fantasy",
+                "body": "Final Fantasy es una franquicia de medios creada por Hironobu Sakaguchi y desarrollada por Square Enix. La franquicia se centra en una serie de fantasía y ciencia ficción de videojuegos RPG.",
+                "price": "$ 1,099.99 MXN",
+                "image": "https://lh3.googleusercontent.com/proxy/unIUsqHWo81rvJasFAkVy_umJY1-nXiYSDEalJWKD3ZhmAgXTpXwbcNBYQ5srXMYO4oLs0nn-CDIiS02Ydjmu2SLhYcPBOCLf0SFEfsDoO2McI_xfm11jXyIBYTJXqYL_HL5i9IaKqxDUt1Mkg"
+            }
+        ]
+    }
 ]

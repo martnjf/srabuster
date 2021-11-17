@@ -3,64 +3,76 @@
         "section": "populares",
         "items": [
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Shang-Chi",
+                "body": "Tras los eventos de Avengers: Endgame, Shang-Chi se ve atraído por la organización clandestina de los Diez Anillos y se ve obligado a confrontar el pasado que pensó que había dejado atrás",
+                "price": "$ 100.00 MXN",
+                "image": "https://www.volkgames.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-02-at-3.13.48-PM.jpeg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Red Notice",
+                "body": "John Hartley, agente de la Interpol, no tendrá otro remedio que aliarse con el ladrón de arte más célebre de todos los tiempos, Nolan Booth, para capturar a la ladrona de arte más buscada del presente: la seductora y peligrosa Sarah Black.",
+                "price": "$ 100.00 MXN",
+                "image": "https://www.ecured.cu/images/b/b2/Rednotice.jpg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Finch",
+                "body": "En un mundo devastado, Finch es un inventor con la misión de encontrar un hogar para él y su familia. Acompañado de su querido perro y de un robot que él mismo creó, se embarca en una bonita y emocionante aventura.",
+                "price": "$ 100.00 MXN",
+                "image": "https://i.blogs.es/11f48e/finch-apple-cartel/1366_2000.jpeg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Free Guy",
+                "body": "Un cajero de un banco descubre que en realidad es un personaje sin papel dentro de un brutal videojuego de mundo interactivo.",
+                "price": "$ 100.00 MXN",
+                "image": "https://as.com/meristation/imagenes/2021/09/24/noticias/1632499302_295338_1632499386_noticia_normal_recorte1.jpg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Riesgo Bajo Cero",
+                "body": "Un conductor, especializado en terrenos helados, comanda la misión de rescate de los trabajadores que quedaron atrapados en una mina de diamantes al norte de Canadá. El experto camionero enfrenta un océano de hielo, el peligro del agua del deshielo y un riesgo que nadie supo prever.",
+                "price": "$ 100.00 MXN",
+                "image": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWL4YQk1KRGqB9JIiWFgQrFAgmzfQpugwf3-6-6jjyjeV-5XQgdazcWUCaT0U4KTa3MEdL8Lgur90o0MkluWLShaOHNZ.jpg?r=90a"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Viejos",
+                "body": "Unas paradisíacas vacaciones se convierten en una pesadilla cuando una familia visita una playa donde, por alguna razón, envejecen rápidamente, reduciendo su vida entera a un solo día.",
+                "price": "$ 100.00 MXN",
+                "image": "https://filmschoolrejects.com/wp-content/uploads/2021/07/Old-Ending-Explained.jpg"
             },
             {
-                "title": "Riverdale",
-                "body": "Ambientada en la actualidad y basada en los personajes icónicos de Archie Comics, Riverdale es una versión sorprendente y subversiva de Archie (KJ Apa), Betty (Lili Reinhart, Surviving Jack), Veronica (Camila Mendes), Jughead Jones (Cole Sprouse). , The Suite Life of Zack and Cody), Josie (Ashleigh Murray) y sus amigos, explorando el surrealismo de la vida en una pequeña ciudad: la oscuridad y la rareza que burbujean debajo de la saludable fachada de Riverdale.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                "title": "Rapidos y Furiosos 9",
+                "body": "Dom Toretto vive una vida tranquila junto a Letty y su hijo, pero el peligro siempre regresa a su vida. En esta ocasión, el equipo se enfrenta a un complot mundial orquestado por el asesino más temible del mundo: el hermano de Dom.",
+                "price": "$ 100.00 MXN",
+                "image": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/03/12/15840382283314.jpg"
             },
             {
-                "title": "Riverdale",
-                "body": "Ambientada en la actualidad y basada en los personajes icónicos de Archie Comics, Riverdale es una versión sorprendente y subversiva de Archie (KJ Apa), Betty (Lili Reinhart, Surviving Jack), Veronica (Camila Mendes), Jughead Jones (Cole Sprouse). , The Suite Life of Zack and Cody), Josie (Ashleigh Murray) y sus amigos, explorando el surrealismo de la vida en una pequeña ciudad: la oscuridad y la rareza que burbujean debajo de la saludable fachada de Riverdale.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                "title": "Luca",
+                "body": "Luca es un monstruo marino que vive debajo de un pueblo de la costa italiana. Cuando sale a la superficie, adquiere una apariencia humana, y conoce a un nuevo amigo, igual que él. Juntos emprenden una aventura entre humanos que odian a los monstruos.",
+                "price": "$ 100.00 MXN",
+                "image": "https://i.blogs.es/f3718e/wp9328462-luca-disney-pixar-wallpapers/1366_2000.jpg"
             },
             {
-                "title": "Riverdale",
-                "body": "Ambientada en la actualidad y basada en los personajes icónicos de Archie Comics, Riverdale es una versión sorprendente y subversiva de Archie (KJ Apa), Betty (Lili Reinhart, Surviving Jack), Veronica (Camila Mendes), Jughead Jones (Cole Sprouse). , The Suite Life of Zack and Cody), Josie (Ashleigh Murray) y sus amigos, explorando el surrealismo de la vida en una pequeña ciudad: la oscuridad y la rareza que burbujean debajo de la saludable fachada de Riverdale.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                "title": "Army of Thieves",
+                "body": "Army of Thieves es una película estadounidense de atracos y comedia con zombis, ​​ dirigida por Matthias Schweighöfer con un guion de Shay Hatten, de una historia original coescrita por Zack Snyder y Hatten.",
+                "price": "$ 100.00 MXN",
+                "image": "https://cinexcepcion.com/wp-content/uploads/2021/11/Army-of-Thieves-.jpg"
             },
             {
-                "title": "Riverdale",
-                "body": "Ambientada en la actualidad y basada en los personajes icónicos de Archie Comics, Riverdale es una versión sorprendente y subversiva de Archie (KJ Apa), Betty (Lili Reinhart, Surviving Jack), Veronica (Camila Mendes), Jughead Jones (Cole Sprouse). , The Suite Life of Zack and Cody), Josie (Ashleigh Murray) y sus amigos, explorando el surrealismo de la vida en una pequeña ciudad: la oscuridad y la rareza que burbujean debajo de la saludable fachada de Riverdale.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                "title": "Jungle Cruise",
+                "body": "Película basada en el paseo en un parque temático de Disneyland donde un pequeño barco fluvial lleva a un grupo de viajeros a través de una jungla llena de peligrosos animales y reptiles, pero con un elemento sobrenatural.",
+                "price": "$ 100.00 MXN",
+                "image": "https://lumiere-a.akamaihd.net/v1/images/cg_junglecruise_disneyplus_mobile_21349_97062e3a.jpeg?region=0,32,1024,576&width=960"
             },
             {
-                "title": "Riverdale",
-                "body": "Ambientada en la actualidad y basada en los personajes icónicos de Archie Comics, Riverdale es una versión sorprendente y subversiva de Archie (KJ Apa), Betty (Lili Reinhart, Surviving Jack), Veronica (Camila Mendes), Jughead Jones (Cole Sprouse). , The Suite Life of Zack and Cody), Josie (Ashleigh Murray) y sus amigos, explorando el surrealismo de la vida en una pequeña ciudad: la oscuridad y la rareza que burbujean debajo de la saludable fachada de Riverdale.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                "title": "La Purga por Siempre",
+                "body": "Adela y su marido, Juan, viven en Texas, donde él trabaja como peón de rancho para la adinerada familia Tucker. En la mañana después de la Purga, una banda de asesinos enmascarados ataca a los Tucker, obligando a ambas familias a unirse y luchar.",
+                "price": "$ 100.00 MXN",
+                "image": "https://assets.tonica.la/__export/1594240074403/sites/debate/img/2020/07/08/the-forever-purge-es-retrasado-1-axo.jpg_759710130.jpg"
             },
             {
-                "title": "Riverdale",
-                "body": "Ambientada en la actualidad y basada en los personajes icónicos de Archie Comics, Riverdale es una versión sorprendente y subversiva de Archie (KJ Apa), Betty (Lili Reinhart, Surviving Jack), Veronica (Camila Mendes), Jughead Jones (Cole Sprouse). , The Suite Life of Zack and Cody), Josie (Ashleigh Murray) y sus amigos, explorando el surrealismo de la vida en una pequeña ciudad: la oscuridad y la rareza que burbujean debajo de la saludable fachada de Riverdale.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
+                "title": "Spiderman: Lejos de Casa",
+                "body": "Peter Parker decide pasar unas merecidas vacaciones en Europa junto a MJ, Ned y el resto de sus amigos. Sin embargo, Peter debe volver a ponerse el traje de Spider-Man cuando Nick Fury le encomienda una nueva misión: frenar el ataque de unas criaturas que están causando el caos en el continente.",
+                "price": "$ 100.00 MXN",
+                "image": "https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2019/08/spider-man-far-from-home-spoilers-pelicula.jpg?fit=1080%2C608&quality=80&ssl=1"
             }
         ]
     },
@@ -68,34 +80,40 @@
         "section": "tendencias",
         "items": [
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Ghost Busters: El Legado",
+                "body": "Cuando una madre soltera y sus dos hijos se mudan a una nueva ciudad, pronto descubren que tienen una conexión con los Cazafantasmas originales y el legado secreto de su abuelo.",
+                "price": "$ 160.00 MXN",
+                "image": "https://www.cinepremiere.com.mx/wp-content/uploads/2021/07/ghostbusters_ellegado-900x506.jpeg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Eternals",
+                "body": "Los Eternos son una raza de seres inmortales con poderes sobrehumanos que han vivido en secreto en la Tierra durante miles de años. Aunque nunca han intervenido, ahora una amenaza se cierne sobre la humanidad.",
+                "price": "$ 160.00 MXN",
+                "image": "https://as01.epimg.net/meristation/imagenes/2021/05/24/videos/1621863624_743853_1621863834_portada_normal.jpg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Venom: Carnage liberado",
+                "body": "Después de encontrar un cuerpo anfitrión en el periodista de investigación Eddie Brock, el simbionte alienígena debe enfrentarse a un nuevo enemigo, Carnage, el alter ego del asesino en serie Cletus Kasady.",
+                "price": "$ 160.00 MXN",
+                "image": "https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2021/10/portada-venom-2-codigo-espagueti-.jpg?fit=1280%2C720&quality=80&ssl=1"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "ROCK DOG: Renace una estrella",
+                "body": "Un año después de, Bodi y sus amigos descubren que la fama tiene un precio cuando realizan su primera gran gira. Cuando Bodi y su banda 'True Blue' son invitados a formar parte de la gira mundial de la sensación pop del momento, Pequeña Foxy, aprenden que la fama tiene un precio y pondrá a prueba su amistad. ¿Lo lograrán?",
+                "price": "$ 160.00 MXN",
+                "image": "https://i.ytimg.com/vi/NvDpWH6gUzA/maxresdefault.jpg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Chernóbil: la película",
+                "body": "«Chernóbil» es un largometraje ruso de 2021, del género catástrofe y drama histórico, dirigido por Danila Kozlovski y que retrata el accidente de Chernóbil.",
+                "price": "$ 160.00 MXN",
+                "image": "https://spoilertime.com/wp-content/uploads/2021/11/Chernobyl-Abyss-780x439.jpeg"
             },
             {
-                "title": "Grey's Anatomy",
-                "body": "Un drama de base médica centrado en Meredith Gray, una aspirante a cirujana e hija de uno de los mejores cirujanos, el Dr. Ellis Gray. A lo largo de la serie, Meredith atraviesa desafíos profesionales y personales junto con otros cirujanos del Seattle Grace Hospital.",
-                "image": "https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p4.PNG?raw=true"
+                "title": "Spiderman: No Way Home",
+                "body": "La nueva de Spiderman jajsjs",
+                "price": "$ 160.00 MXN",
+                "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/06/fan-art-spider-man-no-way-home-2391637.jpg?itok=XauKjNqs"
             }
         ]
     }
