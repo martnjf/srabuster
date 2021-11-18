@@ -14,9 +14,8 @@ body {
 
 .gallery-cell {
   width: 66%;
-  height: 200px;
+  height: 500px;
   margin-right: 10px;
-  background: #8c8;
   counter-increment: gallery-cell;
 }
 
@@ -29,3 +28,14 @@ body {
   font-size: 80px;
   color: white;
 }
+
+.gallery img {
+  width: 100%;
+}
+
+.carousel img {
+  max-height: 600px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
