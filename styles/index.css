@@ -305,12 +305,13 @@ a.cta--primary:hover,
 
 /* Header */
 .header {
-  position: fixed;
+  position: sticky;
   z-index: var(--z-fixed);
   width: 100%;
   height: var(--header-height-m);
   transition: all 300ms ease-in-out;
   background-color: var(--clr-white);
+  margin: 0rem 0rem 0rem;
 }
 
 @media screen and (min-width: 40em) {

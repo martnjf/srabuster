@@ -11,33 +11,55 @@
         crossorigin="anonymous"></script>
 
     <!-- Estilos de CSS -->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/cards.css">
     <link rel="stylesheet" href="../styles/components/modal.css">
-    <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/components/carrusel.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     </head>
 
     <body>
+        <header id="header" class="header">
+            <div class="header__container container container--px">
+                <nav class="navbar flex">
+                    <img src="../assets/Logo.png" class="navbar__brand" title="Back to the homepage"></img>
+
+                    <button id="toggleMenuBtn" class="navbar__toggle-menu toggle-menu" type="button"
+                        aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="toggle-menu__hamburger hamburger" aria-hidden="true">
+                            <div class="hamburger__item"></div>
+                            <div class="hamburger__item"></div>
+                            <div class="hamburger__item"></div>
+                        </div>
+                    </button>
+
+                    <ul id="menuList" class="navbar__menu menu" role="menu">
+                        <li class="menu__item" role="none">
+                            <a href="./main.html" class="menu__link menu__link--active" role="menuitem">Inicio</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./peliculas.html" class="menu__link" role="menuitem">Películas</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./videojuegos.html" class="menu__link" role="menuitem">Videojuegos</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./contacto.html" class="menu__link" role="menuitem">Contacto</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./login.html" class="menu__link cta cta--primary" role="menuitem">Inicia
+                                sesión</a>
+                        </li>
+                    </ul>
+
+                    <div id="overlayLayer" class="header__overlay"></div>
+            </div>
+        </header>
         <div class="wrapper">
 
             <!-- HEADER -->
-            <header>
-                <div class="netflixLogo">
-                    <a id="logo" href="./main.html"><img src="../assets/Logo.png" alt="Logo Image"></a>
-                </div>
-                <nav class="main-nav">
-                    <a href="./main.html">Home</a>
-                    <a href="./peliculas.html">Películas</a>
-                    <a href="./videojuegos.html">Videojuegos</a>
-                    <a href="./contacto.html">Contacto</a>
-                </nav>
-                <nav class="sub-nav">
-                    <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
-                    <!-- <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a> -->
-                    <a href="./login.html">Ingresa</a>
-                </nav>
-            </header>
+
             <!-- END OF HEADER -->
 
             <!-- MAIN CONTAINER -->
@@ -80,24 +102,6 @@
                         <div class="card-ex" onclick='showModal(this)'><img class="imagen"
                                 src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true"
                                 alt=""></div>
-                        <!-- <a href=""><img
-                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true"
-                                alt=""></a>
-                        <a href=""><img
-                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p8.PNG?raw=true"
-                                alt=""></a>
-                        <a href=""><img
-                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p9.PNG?raw=true"
-                                alt=""></a>
-                        <a href=""><img
-                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p10.PNG?raw=true"
-                                alt=""></a>
-                        <a href=""><img
-                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p11.PNG?raw=true"
-                                alt=""></a>
-                        <a href=""><img
-                                src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p12.PNG?raw=true"
-                                alt=""></a> -->
                     </div>
                 </div>
 
@@ -107,18 +111,6 @@
                     <div class="card-ex2" onclick='showModal(this)'><img class="imagen2"
                             src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/p7.PNG?raw=true" alt="">
                     </div>
-                    <!--  <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t1.PNG?raw=true"
-                            alt=""></a>
-                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t2.PNG?raw=true"
-                            alt=""></a>
-                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t3.PNG?raw=true"
-                            alt=""></a>
-                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t4.PNG?raw=true"
-                            alt=""></a>
-                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t5.PNG?raw=true"
-                            alt=""></a>
-                    <a href=""><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t6.PNG?raw=true"
-                            alt=""></a> -->
                 </div>
 
                 <!-- END OF MAIN CONTAINER -->
@@ -133,9 +125,6 @@
                 </section>
                 <!-- END OF LINKS -->
 
-
-
-                <!-- FOOTER -->
         </div>
 
         <!-- Archivos JavaScript -->

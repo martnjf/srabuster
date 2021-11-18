@@ -1,99 +1,125 @@
 <html>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SraBuster</title>
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../styles/contacto.css">
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
-        integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
-        crossorigin="anonymous"></script>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>SraBuster</title>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../styles/contacto.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+    crossorigin="anonymous"></script>
 
-    <!-- Estilos de CSS -->
-    <link rel="stylesheet" href="../styles/main.css">
+<!-- Estilos de CSS -->
+<link rel="stylesheet" href="../styles/index.css">
 
-    <!-- Archivos JavaScript -->
-    <script src="main.js"></script>
-    </head>
+<!-- Archivos JavaScript -->
+<script src="main.js"></script>
+</head>
 
-    <body style="background-image: url('../assets/sala.jpg'); ;">
-        <div class="wrapper">
-            <!-- HEADER -->
-            <header>
-                <div class="netflixLogo">
-                    <a id="logo" href="./main.html"><img src="../assets/Logo.png" alt="Logo Image"></a>
-                </div>
-                <nav class="main-nav">
-                    <a href="./main.html">Home</a>
-                    <a href="./peliculas.html">Películas</a>
-                    <a href="./videojuegos.html">Videojuegos</a>
-                    <a href="./contacto.html">Contacto</a>
-                </nav>
-                <nav class="sub-nav">
-                    <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
-                    <!-- <a href="#"><i class="fas fa-bell sub-nav-logo"></i></a> -->
-                    <a href="./login.html">Ingresa</a>
-                </nav>
-            </header>
-            <!-- END OF HEADER -->
-            
-            <div class="contact_form">
+<body style="background-image: url('../assets/sala.jpg'); ;">
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header id="header" class="header" style="background-color: white;">
+            <div class="header__container container container--px">
+                <nav class="navbar flex">
+                    <img src="../assets/Logo.png" class="navbar__brand" title="Back to the homepage"></img>
 
-                <div class="formulario">      
-                  <h1>¡Todo el entretenimiento que buscas en un solo lugar!</h1>
-                   
-            
-            
-                      <form action="submeter-formulario.php" method="post">       
-            
-                        
-                            <p>
-                              <label for="nombre" class="colocar_nombre">Nombre
-                              </label>
-                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                            </p>
-                          
-                            <p>
-                              <label for="email" class="colocar_email">Email
-                              </label>
-                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                            </p>
-                        
-                            <p>
-                              <label for="telefone" class="colocar_telefono">Teléfono
-                              </label>
-                                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                            </p>    
-                            
-                            <p>
-                                      
-                                            <center>
-                                            <div id="inferior">
-                                                <section class="link">
-                                                    <div class="logos">
-                                                        <a href="https://www.facebook.com/Sra-Buster-110798684478628"><i class="fab fa-facebook-square fa-2x logo"></i></a>
-                                                        <a href="https://www.instagram.com/sra.buster/?hl=es"><i class="fab fa-instagram fa-2x logo"></i></a>
-                                                        <a href="https://twitter.com/BusterSra?t=IT7o-gaS1t4LKrh1W7cSbA&s=09"><i class="fab fa-twitter fa-2x logo"></i></a>
-                                                    </div>
-                                                </section>
-                                            </div>
-                                        </center>
-                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-                            <h3>Av. Universidad 602 <br>
-                                Col. Lomas del Campestre <br>
-                                C.P. 37150, León, Gto, México</h3>
-                                <h4>
-                                    +52 (477) 710 85 00
-                                </h4>        
-                        
-                      </form>
-                </div>  
-              </div>
-            
-            </body>
+                    <button id="toggleMenuBtn" class="navbar__toggle-menu toggle-menu" type="button"
+                        aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="toggle-menu__hamburger hamburger" aria-hidden="true">
+                            <div class="hamburger__item"></div>
+                            <div class="hamburger__item"></div>
+                            <div class="hamburger__item"></div>
+                        </div>
+                    </button>
+
+                    <ul id="menuList" class="navbar__menu menu" role="menu">
+                        <li class="menu__item" role="none">
+                            <a href="./main.html" class="menu__link menu__link--active" role="menuitem">Inicio</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./peliculas.html" class="menu__link" role="menuitem">Películas</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./videojuegos.html" class="menu__link" role="menuitem">Videojuegos</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./contacto.html" class="menu__link" role="menuitem">Contacto</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./login.html" class="menu__link cta cta--primary" role="menuitem">Inicia
+                                sesión</a>
+                        </li>
+                    </ul>
+
+                    <div id="overlayLayer" class="header__overlay"></div>
+            </div>
+        </header>
+        <!-- END OF HEADER -->
+
+        <div class="contact_form">
+
+            <div class="formulario">
+                <h1>¡Todo el entretenimiento que buscas en un solo lugar!</h1>
+
+
+
+                <form action="submeter-formulario.php" method="post">
+
+
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
+
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
+
+                    <p>
+
+                        <center>
+                            <div id="inferior">
+                                <section class="link">
+                                    <div class="logos">
+                                        <a href="https://www.facebook.com/Sra-Buster-110798684478628"><i
+                                                class="fab fa-facebook-square fa-2x logo"></i></a>
+                                        <a href="https://www.instagram.com/sra.buster/?hl=es"><i
+                                                class="fab fa-instagram fa-2x logo"></i></a>
+                                        <a href="https://twitter.com/BusterSra?t=IT7o-gaS1t4LKrh1W7cSbA&s=09"><i
+                                                class="fab fa-twitter fa-2x logo"></i></a>
+                                    </div>
+                                </section>
+                            </div>
+                        </center>
+                        <button type="submit" name="enviar_formulario" id="enviar">
+                            <p>Enviar</p>
+                        </button>
+                    <h3>Av. Universidad 602 <br>
+                        Col. Lomas del Campestre <br>
+                        C.P. 37150, León, Gto, México</h3>
+                    <h4>
+                        +52 (477) 710 85 00
+                    </h4>
+
+                </form>
+            </div>
         </div>
-    </body>
+
+</body>
+</div>
+</body>
 
 </html>
-

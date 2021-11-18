@@ -9,32 +9,57 @@
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
         integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
         crossorigin="anonymous"></script>
+
     <!-- Estilos de CSS -->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/cards.css">
     <link rel="stylesheet" href="../styles/components/modal.css">
-    <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/components/carrusel.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     </head>
 
     <body>
+        <header id="header" class="header">
+            <div class="header__container container container--px">
+                <nav class="navbar flex">
+                    <img src="../assets/Logo.png" class="navbar__brand" title="Back to the homepage"></img>
+
+                    <button id="toggleMenuBtn" class="navbar__toggle-menu toggle-menu" type="button"
+                        aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="toggle-menu__hamburger hamburger" aria-hidden="true">
+                            <div class="hamburger__item"></div>
+                            <div class="hamburger__item"></div>
+                            <div class="hamburger__item"></div>
+                        </div>
+                    </button>
+
+                    <ul id="menuList" class="navbar__menu menu" role="menu">
+                        <li class="menu__item" role="none">
+                            <a href="./main.html" class="menu__link menu__link--active" role="menuitem">Inicio</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./peliculas.html" class="menu__link" role="menuitem">Películas</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./videojuegos.html" class="menu__link" role="menuitem">Videojuegos</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./contacto.html" class="menu__link" role="menuitem">Contacto</a>
+                        </li>
+                        <li class="menu__item" role="none">
+                            <a href="./login.html" class="menu__link cta cta--primary" role="menuitem">Inicia
+                                sesión</a>
+                        </li>
+                    </ul>
+
+                    <div id="overlayLayer" class="header__overlay"></div>
+            </div>
+        </header>
         <div class="wrapper">
             <!-- HEADER -->
-            <header>
-                <div class="netflixLogo">
-                    <a id="logo" href="./main.html"><img src="../assets/Logo.png" alt="Logo Image"></a>
-                </div>
-                <nav class="main-nav">
-                    <a href="./main.html">Home</a>
-                    <a href="./peliculas.html">Películas</a>
-                    <a href="./videojuegos.html">Videojuegos</a>
-                    <a href="./contacto.html">Contacto</a>
-                </nav>
-                <nav class="sub-nav">
-                    <a href="#"><i class="fas fa-search sub-nav-logo"></i></a>
-                    <a href="./login.html">Ingresa</a>
-                </nav>
-            </header>
+
+
             <section class="main-container">
 
                 <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
@@ -100,4 +125,5 @@
         <!-- Archivos JavaScript -->
         <script src="../js/videojuegos.js"></script>
     </body>
+
 </html>
