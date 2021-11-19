@@ -957,3 +957,166 @@ a.cta--primary:hover,
 }
 
 /* :D */
+
+.live-bg {
+  background-position: left center;
+  background-size: cover;
+  padding: 120px 0 120px;
+}
+.live-bg .title-style-two .sub-title {
+color: #656363;
+}
+.live-bg .title-style-two .title {
+color: #1e1b29;
+}
+.live-movie-img {
+  margin-left: 70px;
+}
+.live-movie-img img {
+max-width: initial;
+}
+.live-movie-content > p {
+  color: #6a6a6a;
+  margin-bottom: 0;
+}
+.live-fact-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.live-fact-wrap .resolution h2 {
+  font-size: 60px;
+  text-shadow: 0px 3px 24px rgba(160, 160, 160, 0.09);
+  line-height: 1;
+  margin-bottom: 0;
+  color: #d81c2b;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #d81c2b;
+}
+.live-fact-wrap .resolution {
+  margin-right: 35px;
+  margin-bottom: 15px;
+}
+.active-customer {
+margin-bottom: 15px;
+}
+.active-customer h4 {
+  font-size: 38px;
+  color: #1e1b29;
+  text-shadow: 0px 3px 4px rgba(30, 30, 30, 0.18);
+  line-height: .8;
+  margin-bottom: 5px;
+}
+.active-customer > p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e1b29;
+line-height: 1;
+}
+.live-movie-content > .btn {
+  box-shadow: 0px 3px 24px 0px rgba(160, 160, 160, 0.5);
+  background: #e4d804;
+  color: #1e1b29;
+}
+.live-movie-content > .btn:hover {
+background: transparent;
+box-shadow: none;
+}
+
+.btn {
+  user-select: none;
+  -moz-user-select: none;
+  background: #12151e none repeat scroll 0 0;
+  border: 2px solid #e4d804;
+  border-radius: 50px;
+  color: #e3dfdf;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  padding: 16px 34px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  max-width: 200px;
+}
+.btn > i {
+  margin-right: 7px;
+}
+.header-action .header-btn .btn:hover,
+.btn:hover {
+color: #1e1b29;
+}
+.breadcrumb > .active {
+color: #888;
+}
+.slick-slide:focus {
+outline: none;
+}
+
+.live-movie-img img {
+  max-width: 100%;
+}
+.live-movie-img {
+  margin-left: 0;
+  margin-top: 50px;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.link {
+  padding: 50px;
+}
+
+.sub-links ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.sub-links a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  color: var(--dark);
+  text-decoration: underline;
+}
+
+.logos a {
+  padding: 10px;
+}
+
+.logo {
+  color: var(--dark);
+}
+
+/* FOOTER */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: var(--dark);
+  margin: 10px;
+}
+
+#bd_peliculas{
+  background-color: white !important;
+}
+
+#bd_videojuegos{
+  background-color: white !important;
+}
