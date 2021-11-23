@@ -84,5 +84,5 @@
 })(jQuery);
 
 function navigateMenu() {
-  window.location.href = "../prototipe/peliculas.html";
+  window.location.href = "../main.html";
 }

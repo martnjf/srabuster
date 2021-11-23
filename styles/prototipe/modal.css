@@ -1,0 +1,110 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0;
+  border: 1px solid #888;
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 1px 16px;
+  background-color: var(--yellow);
+  color: white;
+}
+
+.modal-body {
+  padding: 30px 26px;
+  display: grid;
+  grid-template-columns: 47% auto;
+  grid-column-gap: 20px;
+}
+
+.description-img {
+  height: 250px;
+}
+
+.modal-title {
+  grid-column: 2;
+  grid-row: 1;
+  color: rgb(141, 141, 141);
+}
+
+.modal-desc {
+  grid-row: 1;
+  grid-column: 2;
+  margin-top: 30px;
+}
+
+.button {
+  /* Green */
+  border: none;
+  color: white;
+  padding: 2px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  grid-column: 2;
+  grid-row: 1;
+  width: 50%;
+  background-color: var(--blue);
+  height: 40px;
+  font-size: 15px;
+}
+
+.button1 {
+  margin: 10rem auto 0rem;
+} /* Blue */
+
+.button2 {
+  margin: 13rem auto 0rem;
+} /* Blue */
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: inherit;
+}

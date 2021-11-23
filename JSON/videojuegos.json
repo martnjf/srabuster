@@ -116,5 +116,87 @@
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo8eHV-G_dZpvIcN4MJ9uDtdenV2BFT1OosRVP6OqcUqLju6yFBJDBYvzL4GeiZ-pEcWE&usqp=CAU"
             }
         ]
+    },
+    {
+        "section": "guerra",
+        "items": [
+            {
+                "title": "Call of Duty: Black Ops",
+                "body": "Es un videojuego de disparos en primera persona de estilo bélico. Es el séptimo título de la serie Call of Duty y el tercer título de la serie desarrollado por Treyarch, siendo la secuela directa de su anterior título, Call of Duty: World at War.",
+                "price": "$ 428.00 MXN",
+                "image": "https://images.greenmangaming.com/729fa23eb1aa4d279ad00367ceba483a/2f1ad86edafe47f8b222a1adeb75541f.jpg"
+            },
+            {
+                "title": "Call of Duty: WWII",
+                "body": "Football Manager es el nombre comercial con el que se conoce a la continuación de la saga Championship Manager, que comprende una serie de videojuegos de gestión futbolística, en los cuales el jugador actúa como de un mánager de un equipo de fútbol.",
+                "price": "$ 719.00 MXN",
+                "image": "https://generacionxbox.com/wp-content/uploads/2017/11/call-of-duty-WWII-recods-ventas-generacion-xbox.jpeg"
+            },
+            {
+                "title": "Battlefield 1",
+                "body": " Es un videojuego de disparos y acción bélica en primera persona. El título fue desarrollado por DICE y distribuido mundialmente por Electronic Arts.",
+                "price": "$ 839.56 MXN",
+                "image": "https://i.blogs.es/73ca73/battlefield-1-ban/1366_2000.jpeg"
+            },
+            {
+                "title": "Brothers in Arms",
+                "body": "Es una serie de videojuegos pertenecientes al género de disparos tácticos de Gearbox Software, que consta de diez videojuegos individuales.",
+                "price": "$ 899.00 MXN",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0XyMWFdqdTqaCGG6wTTAR8mCQNOCrRHv1B_x6Gk0zWsFB4SttSBWLGE4xRraazy3Tso&usqp=CAU"
+            },
+            {
+                "title": "Battlefield V",
+                "body": "Es un videojuego de disparos y acción bélica en primera persona​ desarrollado por DICE y distribuido por Electronic Arts. El videojuego fue lanzado el 20 de noviembre de 2018.",
+                "price": "$ 0.00 MXN",
+                "image": "https://cdn-ext.fanatical.com/production/product/1280x720/b6c2ef84-5741-4e25-a8e0-4a4dd6d5a9ed.jpeg"
+            },
+            {
+                "title": "This War of Mine",
+                "body": "Es un videojuego de guerra de supervivencia desarrollado por 11 bit studios. Fue inspirado en el Sitio de Sarajevo entre 1992 y 1996 durante la Guerra de Bosnia, difiere de la mayoría de los juegos de guerra enfocándose en la experiencia civil de la guerra en vez del combate entre soldados.",
+                "price": "$ 1,099.99 MXN",
+                "image": "https://i.blogs.es/9d204c/this-war-of-mine/450_1000.jpg"
+            }
+        ]
+    },
+    {
+        "section": "estrategia",
+        "items": [
+            {
+                "title": "StarCraft",
+                "body": "Es un videojuego de estrategia en tiempo real de ciencia ficción militar desarrollado por Blizzard Entertainment. El primer juego de la serie StarCraft fue lanzado para Microsoft Windows el 31 de marzo de 1998.",
+                "price": "$ 428.00 MXN",
+                "image": "https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/ay/AYJ0P9WLD7IP1602720127239.jpg"
+            },
+            {
+                "title": "Ages of Empires IV",
+                "body": "Es un videojuego de estrategia en tiempo real desarrollado por Relic Entertainment en asociación con World's Edge y publicado por Xbox Game Studios. Es la cuarta entrega de la serie Age of Empires.",
+                "price": "$ 719.00 MXN",
+                "image": "https://i.blogs.es/e3fada/241021-aoe4-review/1366_2000.jpeg"
+            },
+            {
+                "title": "Civilization VI",
+                "body": "Es un videojuego de estrategia por turnos perteneciente a la serie Civilization. El juego fue desarrollado por Firaxis Games y distribuido por 2K Games y Take-Two Interactive.",
+                "price": "$ 839.56 MXN",
+                "image": "https://cdn1.epicgames.com/cd14dcaa4f3443f19f7169a980559c62/offer/EGS_SidMeiersCivilizationVI_FiraxisGames_S1-2560x1440-2fcd1c150ac6d8cdc672ae042d2dd179.jpg"
+            },
+            {
+                "title": "Plantas vs Zombies",
+                "body": "Juega a la aventura de acción y estrategia en la que podrás conocer, saludar y derrotar a legiones de zombis alocados desde el amanecer de los tiempos hasta el ocaso de los días. Reúne un ejército de plantas increíbles, cárgalas hasta los topes de Nutrientes y urde el plan definitivo para proteger tu cerebro.",
+                "price": "$ 899.00 MXN",
+                "image": "https://media.contentapi.ea.com/content/dam/eacom/pvz/pvz-bfn/images/2019/08/pvz-share-image.jpg.adapt.crop16x9.1023w.jpg"
+            },
+            {
+                "title": "Warcraft III",
+                "body": "Videojuego de estrategia en tiempo real creado por Blizzard Entertainment y es la tercera parte de la serie Warcraft.",
+                "price": "$ 0.00 MXN",
+                "image": "http://p-gruporpp-media.s3.amazonaws.com/2018/07/04/554855_640441.jpg"
+            },
+            {
+                "title": "Clash Royale",
+                "body": "es un videojuego de estrategia en línea para dispositivos móviles, creado por la compañía finlandesa Supercell.​ Fue lanzado globalmente el 2 de marzo del 2016.​",
+                "price": "$ 1,099.99 MXN",
+                "image": "https://i.blogs.es/8935db/lroyale/1366_2000.jpg"
+            }
+        ]
     }
 ]
