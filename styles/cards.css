@@ -81,6 +81,11 @@ h1 {
 #title_pe{
   color:firebrick;
 }
+#modal-header{
+  text-align: center;
+  vertical-align: bottom;
+  margin-top: 8px;
+}
 /* Header */
 .banner {
   color: white;
