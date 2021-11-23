@@ -1,5 +1,7 @@
 $(".card-ex:first").hide();
 $(".card-ex2:first").hide();
+$(".card-ex3:first").hide();
+$(".card-ex4:first").hide();
 
 fetch("../JSON/videojuegos.json").then(function (response) {
   response.json().then(function (datos) {
@@ -20,6 +22,24 @@ fetch("../JSON/videojuegos.json").then(function (response) {
       $(card).show();
       $(card).appendTo($("#secondBox"));
     });
+
+    datos[2].items.forEach((item3, index) => {
+      var cardg = $(".card-ex3:first").clone();
+      $(cardg).find(".imagen3").attr("src", item3.image);
+      $(cardg).attr("id", index);
+      $(cardg).attr("value", "guerra");
+      $(cardg).show();
+      $(cardg).appendTo($("#thirdBox"));
+    });
+
+    datos[3].items.forEach((item4, index) => {
+      var carde = $(".card-ex4:first").clone();
+      $(carde).find(".imagen4").attr("src", item4.image);
+      $(carde).attr("id", index);
+      $(carde).attr("value", "estrategia");
+      $(carde).show();
+      $(carde).appendTo($("#fourthBox"));
+    });
   });
 });
 
@@ -30,8 +50,16 @@ var span = document.getElementsByClassName("close")[0];
 function showModal(item) {
   var divId = $(item).attr("id");
   var type = 0;
-  $(item).attr("value") == "populares" ? (type = 0) : (type = 1);
-
+  //$(item).attr("value") == "populares" ? (type = 0) : (type = 1);
+  if ($(item).attr("value") == "populares"){
+    type = 0;
+  } else if ($(item).attr("value") == "tendencias") {
+    type = 1;
+  } else if ($(item).attr("value") == "guerra") {
+    type = 2;
+  } else if ($(item).attr("value") == "estrategia") {
+    type = 3;
+  }
   modal.style.display = "block";
 
   fetch("../JSON/videojuegos.json").then(function (response) {
