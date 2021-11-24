@@ -99,7 +99,7 @@ h4{
     margin-right: 5px;
   }
 
-p{
+p, a{
   font-size: 14px; 
   color: white; 
 }
