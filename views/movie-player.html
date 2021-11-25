@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-
-  <link  rel="stylesheet" href="../styles/moviePlayer.css"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="icon"
+    href="https://icons-for-free.com/iconfiles/png/512/game+controller+video+game+icon-1320087273514764593.png"
+    type="image/x-icon">
+  <link rel="stylesheet" href="../styles/moviePlayer.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
+
 <body>
-  <img src="../assets/back-icon-256-1514071790.png" class="imageGoBack" onclick="window.location.href='./landing/peliculas.html';" />
+  <img src="../assets/back-icon-256-1514071790.png" class="imageGoBack"
+    onclick="window.location.href='./prototipe/peliculas.html';" />
   <div class="wrapper">
     <div class="player">
       <video id="video" src="http://r.myxotod.de/codepen.io/ambilight/sports.mp4" controls></video>
-      
+
       <!-- Available video files:
       sports.mp4
       video.mp4
       gopro.mp4
       -->
-    
+
       <canvas id="myCanvas" width="75vw" height="90vh"></canvas>
     </div>
     <div id="vidtop-content">
       <div class="vid-info">
-          <div>
-            <h1>Id de sesión:</h1>
-            
-            <h2 id="randomID" style="position: absolute; right: 10px;"></h2>
-            <a href="#" style="margin: 10px; width: 40%">Ingresar a otra sesión</a>
-          </div>
-          
-          <p><strong>Andrea Perez</strong>: Esta chido eh?</p>
-           <p><strong>Martin Jasso</strong>: Me gustaba más la fiera lml</p>
-           <p><strong>Yoselin Perez</strong>: Martin jajajaja</p>
-           <p><strong>Felix Cardenas</strong>: Arriba San Pancho</p>
-           <p><strong>Fernando Cruz</strong>: ¿Un BedWars o que?</p>
+        <div>
+          <h2>Id de sesión:</h2>
+          <h3 id="randomID" style="position: absolute; right: 10px; top: 20px;"></h3>
+          <a href="#" style="margin: 20px; color:lightblue;">Ingresar a otra sesión</a>
+        </div>
+
+        <p><strong>Andrea Perez</strong>: Esta chido eh?</p>
+        <p><strong>Martin Jasso</strong>: Me gustaba más la fiera lml</p>
+        <p><strong>Yoselin Perez</strong>: Sra. Buster es lo mejor</p>
+        <p><strong>Felix Cardenas</strong>: Arriba San Pancho</p>
+        <p><strong>Fernando Cruz</strong>: ¿Un BedWars o que?</p>
         <div class="sendToBottom">
-         <input type="text" class="inputChat" placeholder="Escriba su mensaje..." />
-         <button class="sendButton">Enviar</button>
+          <input type="text" class="inputChat" placeholder="Escriba su mensaje..." />
+          <button class="sendButton">Enviar</button>
         </div>
       </div>
-      </div>
+    </div>
   </div>
-  
+
 
   <script src="../js/moviePlayerInit.js"> </script>
 </body>
+
 </html>
