@@ -1,8 +1,12 @@
 <html>
-<h>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SraBuster</title>
+    <link rel="icon"
+        href="https://icons-for-free.com/iconfiles/png/512/game+controller+video+game+icon-1320087273514764593.png"
+        type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -20,170 +24,166 @@
     <link rel="stylesheet" href="../../styles/landing/carrusel.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    </head>
+</head>
 
-    <body id="bd_videojuegos">
-        <header id="header" class="header">
-            <div class="header__container container container--px">
-                <nav class="navbar flex">
-                    <img src="../../assets/Logo.png" class="navbar__brand" title="Back to the homepage"></img>
+<body id="bd_videojuegos">
+    <header id="header" class="header">
+        <div class="header__container container container--px">
+            <nav class="navbar flex">
+                <img src="../../assets/Logo.png" class="navbar__brand" title="Back to the homepage"></img>
 
-                    <button id="toggleMenuBtn" class="navbar__toggle-menu toggle-menu" type="button"
-                        aria-haspopup="true" aria-expanded="false" aria-label="Toggle navigation">
-                        <div class="toggle-menu__hamburger hamburger" aria-hidden="true">
-                            <div class="hamburger__item"></div>
-                            <div class="hamburger__item"></div>
-                            <div class="hamburger__item"></div>
-                        </div>
-                    </button>
-
-                    <ul id="menuList" class="navbar__menu menu" role="menu">
-                        <li class="menu__item" role="none">
-                            <a href="../main.html" class="menu_link menu_link--active" role="menuitem">Inicio</a>
-                        </li>
-                        <li class="menu__item" role="none">
-                            <a href="./peliculas.html" class="menu__link" role="menuitem">Películas</a>
-                        </li>
-                        <li class="menu__item" role="none">
-                            <a href="./videojuegos.html" class="menu__link" role="menuitem">Videojuegos</a>
-                        </li>
-                        <li class="menu__item" role="none">
-                            <a href="./contacto.html" class="menu__link" role="menuitem">Contacto</a>
-                        </li>
-                        <li class="menu__item" role="none">
-                            <a href="./login.html" class="menu__link cta cta--primary" role="menuitem">Inicia
-                                sesión</a>
-                        </li>
-                    </ul>
-
-                    <div id="overlayLayer" class="header__overlay"></div>
-            </div>
-        </header>
-        <div class="wrapper">
-            <!-- HEADER -->
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../../assets/carousel_1.jpg" class="d-block w-100" alt="...">
+                <button id="toggleMenuBtn" class="navbar__toggle-menu toggle-menu" type="button" aria-haspopup="true"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="toggle-menu__hamburger hamburger" aria-hidden="true">
+                        <div class="hamburger__item"></div>
+                        <div class="hamburger__item"></div>
+                        <div class="hamburger__item"></div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="../../assets/carousel_3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../../assets/carousel_7.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../../assets/carousel_8.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
 
-            <div id="myModal" class="modal">
+                <ul id="menuList" class="navbar__menu menu" role="menu">
+                    <li class="menu__item" role="none">
+                        <a href="../main.html" class="menu_link menu_link--active" role="menuitem">Inicio</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="./peliculas.html" class="menu__link" role="menuitem">Películas</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="./videojuegos.html" class="menu__link" role="menuitem">Videojuegos</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="./contacto.html" class="menu__link" role="menuitem">Contacto</a>
+                    </li>
+                    <li class="menu__item" role="none">
+                        <a href="./login.html" class="menu__link cta cta--primary" role="menuitem">Inicia
+                            sesión</a>
+                    </li>
+                </ul>
 
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <h2 id="modal-header">Modal Header</h2>
-                    </div>
-                    <div class="modal-body">
-                        <img class="description-img" id="modal-image"
-                            src="" alt="">
-                        <div class="modal-title" id="modal-title">Some text in the Modal Body</div>
-                        <div class="modal-desc" id="modal-desc">Some other text...</div>
-                        <button class="button button1">Renta por mes</button>
-                        <button class="button button2">¡Conécta con amigos!</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="container-fluid">
-                <div class="location" id="home">
-                    <h1 id="home">Populares en Videojuegos</h1>
-                    <div class="box" id="firstBox">
-                        <div class="card-ex" onclick='showModal(this)'><img class="imagen"
-                                src=""
-                                alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <br><br>
-            <section class="live-area live-bg fix" data-background="img/bg/live_bg.jpg"
-                style="background-image: url(https://themebeyond.com/html/movflx/img/bg/live_bg.jpg)">
-                <div class="container-lg">
-                    <div class="row align-items-center">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="section-title title-style-two mb-25">
-                                <span class="sub-title">Sra. Buster</span>
-                                <h2 class="title">Videojuegos para amigos y familia</h2>
-                            </div>
-                            <div class="live-movie-content">
-                                <p>¡No lo busques más! la más alta calidad en películas y videojuegos para todos.</p>
-                                <div class="live-fact-wrap">
-                                    <div class="resolution">
-                                        <h2>HD 4K</h2>
-                                    </div>
-                                </div>
-                                <a href="" class="btn popup-video"><i class="fas fa-play"></i> Ver ahora</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="live-movie-img wow fadeInRight" data-wow-delay=".2s" data-wow-duration="1.8s"
-                                style="visibility: visible; animation-duration: 1.8s; animation-delay: 0.2s; animation-name: fadeInRight;">
-                                <img src="../../assets/videojuego.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <div class="container-fluid">
-                <h1 id="myList">Tendencias en Videojuegos</h1>
-                <div class="box" id="secondBox">
-                    <div class="card-ex2" onclick='showModal(this)'><img class="imagen2"
-                            src="" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- LINKS -->
-            <div class="container-fluid ">
-                <section class="link">
-                </section>
-            </div>
-            <!-- END OF LINKS -->
-
-            <!-- FOOTER -->
+                <div id="overlayLayer" class="header__overlay"></div>
         </div>
-        <!-- Archivos JavaScript -->
-        <script src="../../js/videojuegos.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-    </body>
+    </header>
+    <div class="wrapper">
+        <!-- HEADER -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../../assets/carousel_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../assets/carousel_3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../assets/carousel_7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../../assets/carousel_8.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2 id="modal-header">Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="description-img" id="modal-image" src="" alt="">
+                    <div class="modal-title" id="modal-title">Some text in the Modal Body</div>
+                    <div class="modal-desc" id="modal-desc">Some other text...</div>
+                    <button class="button button1">Renta por mes</button>
+                    <button class="button button2">¡Conécta con amigos!</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="location" id="home">
+                <h1 id="home">Populares en Videojuegos</h1>
+                <div class="box" id="firstBox">
+                    <div class="card-ex" onclick='showModal(this)'><img class="imagen" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <section class="live-area live-bg fix" data-background="img/bg/live_bg.jpg"
+            style="background-image: url(https://themebeyond.com/html/movflx/img/bg/live_bg.jpg)">
+            <div class="container-lg">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="section-title title-style-two mb-25">
+                            <span class="sub-title">Sra. Buster</span>
+                            <h2 class="title">Videojuegos para amigos y familia</h2>
+                        </div>
+                        <div class="live-movie-content">
+                            <p>¡No lo busques más! la más alta calidad en películas y videojuegos para todos.</p>
+                            <div class="live-fact-wrap">
+                                <div class="resolution">
+                                    <h2>HD 4K</h2>
+                                </div>
+                            </div>
+                            <a href="" class="btn popup-video"><i class="fas fa-play"></i> Ver ahora</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="live-movie-img wow fadeInRight" data-wow-delay=".2s" data-wow-duration="1.8s"
+                            style="visibility: visible; animation-duration: 1.8s; animation-delay: 0.2s; animation-name: fadeInRight;">
+                            <img src="../../assets/videojuego.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container-fluid">
+            <h1 id="myList">Tendencias en Videojuegos</h1>
+            <div class="box" id="secondBox">
+                <div class="card-ex2" onclick='showModal(this)'><img class="imagen2" src="" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- LINKS -->
+        <div class="container-fluid ">
+            <section class="link">
+            </section>
+        </div>
+        <!-- END OF LINKS -->
+
+        <!-- FOOTER -->
+    </div>
+    <!-- Archivos JavaScript -->
+    <script src="../../js/videojuegos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
